@@ -1,0 +1,8 @@
+package "Example of .ggo file"
+version "1.0"
+purpose "Simple example (optional)"
+description "description needed (optional)"
+versiontext "versiontext needed (optional)"
+
+option "filename" f "file" string typestr="dirname" required
+option "num" n "number" int optional

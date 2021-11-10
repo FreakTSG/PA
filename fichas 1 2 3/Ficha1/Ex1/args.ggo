@@ -1,0 +1,8 @@
+package "Example of .ggo file"
+version "1.0"
+purpose "Simple example (optional)"
+description "description needed (optional)"
+versiontext "versiontext needed (optional)"
+
+option "num_procs" n "numero de processos a criar" int required
+
